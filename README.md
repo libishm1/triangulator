@@ -5,7 +5,7 @@ Commandline arguments
 
 complie;  
 
-g++ -o triangulate triangulate.cpp `pkg-config --cflags --libs opencv4`
+g++ -o triangulate triangulate.cpp `'pkg-config --cflags --libs opencv4'`
 
 run executable;
 
